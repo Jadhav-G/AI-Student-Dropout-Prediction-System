@@ -16,7 +16,47 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-brand">
-                <span class="medical-icon">⚕️</span>
+                <!-- <span class="medical-icon">⚕️</span> -->
+                 <span class="medical-icon" >🎓</span>
+                 <style>
+
+.auth-icon {
+    font-size: 40px;
+    color: white;
+
+    text-shadow:
+        0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 40px #ffffff,
+        0 0 60px #ffffff,
+        0 0 80px #ffffff;
+
+    filter:
+        drop-shadow(0 0 10px #ffffff)
+        drop-shadow(0 0 20px #ffffff)
+        drop-shadow(0 0 40px #ffffff)
+        drop-shadow(0 0 60px #ffffff);
+
+    animation: glowAuth 1.2s infinite alternate;
+}
+
+@keyframes glowAuth {
+    from {
+        filter:
+            drop-shadow(0 0 10px #07dac2)
+            drop-shadow(0 0 20px #4cce10);
+    }
+
+    to {
+        filter:
+            drop-shadow(0 0 40px #ffffff)
+            drop-shadow(0 0 80px #ffffff)
+            brightness(2);
+    }
+}
+
+</style>
                 <span class="brand-text">EduGuard AI</span>
             </div>
             <div class="nav-menu">
